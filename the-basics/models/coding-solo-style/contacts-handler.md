@@ -35,7 +35,7 @@ component{
         }
         else{
             flash.put( "notice", "Contact Created!" );
-            setNextEvent("contacts");
+            relocate("contacts");
         }
     }
 
@@ -51,7 +51,7 @@ component{
         }
         else{
             flash.put( "notice", "Contact Saved!" );
-            setNextEvent("contacts");
+            relocate("contacts");
         }
     }
 }
